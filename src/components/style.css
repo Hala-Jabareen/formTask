@@ -1,0 +1,55 @@
+body
+{
+    background-color: aliceblue;
+}
+.container{
+    background-color: black;
+    width: 650px;
+    height: 460px;
+    margin: auto;
+    margin-top:250px ;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: chocolate;
+    font-weight: 700;
+    
+}
+h2{
+    padding-top: 5px;
+}
+.myForm{
+    
+    color: chocolate;
+    padding: 5px;
+    
+    
+}
+input , select
+{
+    display: block;
+    width: 100%;
+}
+.inputFiled
+{
+    text-align: left;
+    display: block;
+    padding-top: 10px;
+    margin: 10px;
+}
+button
+{
+    height: 40px;
+    width: 70px;
+    color: black;
+    border-style:solid ;
+    border-radius: 5px;
+}
+button:disabled
+{
+    background-color: darkgray;
+}
+button:enabled
+{
+    background-color: goldenrod;
+}
